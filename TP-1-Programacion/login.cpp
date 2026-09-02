@@ -8,6 +8,7 @@ Login::Login(QWidget *parent)
     ui->setupUi(this);
     //Agrego usuarios validados(usuario, contraseña)
     users.insert("grupo4","utnfrh");
+    users.insert("","");
 }
 
 Login::~Login()

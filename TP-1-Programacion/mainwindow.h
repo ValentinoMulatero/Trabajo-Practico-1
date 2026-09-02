@@ -3,6 +3,7 @@
 
 #include "ingresopacientes.h"
 #include <QMainWindow>
+#include<QQueue>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -20,12 +21,12 @@ public:
 
     void setUserLogin(QString);
 
-
+    void updateEspera();
+    void updateAtendido();
+    void lastAtendido();
 
 private slots:
     void on_btnAnadir_clicked();
-
-    void on_btnEspera_clicked();
 
     void on_btnSiguiente_clicked();
 
@@ -38,10 +39,12 @@ private slots:
 private:
     Ui::MainWindow *ui;
     IngresoPacientes* uiWinIngresoPacientes;
+    QQueue<QString> pacientes;
+    QQueue<QString> atendidos;
 
     QList<QString> movimientos; // listado de movimientos en GUI
 
     /* Datos de ventanas secundarias*/
-    QVector<QString> IngresoPacientesSelect;
+   QString IngresoPacientesSelect;
 };
 #endif // MAINWINDOW_H

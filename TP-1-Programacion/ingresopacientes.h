@@ -2,6 +2,8 @@
 #define INGRESOPACIENTES_H
 
 #include <QDialog>
+#include <QQueue>
+#include <QString>
 
 namespace Ui {
 class IngresoPacientes;
@@ -19,7 +21,7 @@ public:
     void setListgenero(QStringList);
 
     /* getters */
-    QVector<QString> getIngresoPacientes();
+    QString getIngresoPacientes();
 
 
 private slots:
@@ -27,6 +29,7 @@ private slots:
 
 private:
     Ui::IngresoPacientes *ui;
+    QQueue<QString> pacientes;
 };
 
 #endif // INGRESOPACIENTES_H

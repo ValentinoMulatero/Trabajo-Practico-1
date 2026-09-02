@@ -36,12 +36,11 @@ public:
     QHBoxLayout *horizontalLayout;
     QVBoxLayout *verticalLayout;
     QPushButton *btnAnadir;
-    QPushButton *btnEspera;
     QPushButton *btnSiguiente;
     QPushButton *btnAtender;
     QListWidget *listMovimientos_1;
     QHBoxLayout *horizontalLayout_2;
-    QListWidget *listWidget_2;
+    QListWidget *listMovimientos_2;
     QPushButton *btnAtendidos;
     QStatusBar *statusbar;
 
@@ -81,11 +80,6 @@ public:
 
         verticalLayout->addWidget(btnAnadir);
 
-        btnEspera = new QPushButton(horizontalLayoutWidget_3);
-        btnEspera->setObjectName("btnEspera");
-
-        verticalLayout->addWidget(btnEspera);
-
         btnSiguiente = new QPushButton(horizontalLayoutWidget_3);
         btnSiguiente->setObjectName("btnSiguiente");
 
@@ -106,10 +100,10 @@ public:
 
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName("horizontalLayout_2");
-        listWidget_2 = new QListWidget(horizontalLayoutWidget_3);
-        listWidget_2->setObjectName("listWidget_2");
+        listMovimientos_2 = new QListWidget(horizontalLayoutWidget_3);
+        listMovimientos_2->setObjectName("listMovimientos_2");
 
-        horizontalLayout_2->addWidget(listWidget_2);
+        horizontalLayout_2->addWidget(listMovimientos_2);
 
         btnAtendidos = new QPushButton(horizontalLayoutWidget_3);
         btnAtendidos->setObjectName("btnAtendidos");
@@ -138,7 +132,6 @@ public:
         groupBox->setTitle(QCoreApplication::translate("MainWindow", "Usuario", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "grupo4", nullptr));
         btnAnadir->setText(QCoreApplication::translate("MainWindow", "A\303\261adir", nullptr));
-        btnEspera->setText(QCoreApplication::translate("MainWindow", "En espera", nullptr));
         btnSiguiente->setText(QCoreApplication::translate("MainWindow", "Siguiente", nullptr));
         btnAtender->setText(QCoreApplication::translate("MainWindow", "Atender", nullptr));
         btnAtendidos->setText(QCoreApplication::translate("MainWindow", "Atendidos", nullptr));

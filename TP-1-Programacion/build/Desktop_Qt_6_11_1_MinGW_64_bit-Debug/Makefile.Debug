@@ -330,6 +330,9 @@ debug/moc_ingresopacientes.cpp: ../../ingresopacientes.h \
 		C:/Qt/6.11.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.11.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.11.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/QQueue \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/qqueue.h \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/QString \
 		debug/moc_predefs.h \
 		C:/Qt/6.11.1/mingw_64/bin/moc.exe
 	C:\Qt\6.11.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/Asus Vivo/OneDrive/Documentos/TP-1-Programacion/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/Asus Vivo/OneDrive/Documentos/TP-1-Programacion" -IC:/Qt/6.11.1/mingw_64/include -IC:/Qt/6.11.1/mingw_64/include/QtWidgets -IC:/Qt/6.11.1/mingw_64/include/QtGui -IC:/Qt/6.11.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++ -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -IC:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include ..\..\ingresopacientes.h -o debug\moc_ingresopacientes.cpp
@@ -747,6 +750,9 @@ debug/moc_mainwindow.cpp: ../../mainwindow.h \
 		C:/Qt/6.11.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.11.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.11.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/QQueue \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/qqueue.h \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/QString \
 		C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmainwindow.h \
 		C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -987,6 +993,9 @@ debug/ingresopacientes.o: ../../ingresopacientes.cpp ../../ingresopacientes.h \
 		C:/Qt/6.11.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.11.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.11.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/QQueue \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/qqueue.h \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/QString \
 		ui_ingresopacientes.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\ingresopacientes.o ..\..\ingresopacientes.cpp
 
@@ -1402,6 +1411,9 @@ debug/main.o: ../../main.cpp ../../mainwindow.h \
 		C:/Qt/6.11.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.11.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.11.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/QQueue \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/qqueue.h \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/QString \
 		C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmainwindow.h \
 		C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -1617,6 +1629,9 @@ debug/mainwindow.o: ../../mainwindow.cpp ../../mainwindow.h \
 		C:/Qt/6.11.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.11.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.11.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/QQueue \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/qqueue.h \
+		C:/Qt/6.11.1/mingw_64/include/QtCore/QString \
 		C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmainwindow.h \
 		C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtabwidget.h

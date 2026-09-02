@@ -70,13 +70,6 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="btnEspera">
-           <property name="text">
-            <string>En espera</string>
-           </property>
-          </widget>
-         </item>
-         <item>
           <widget class="QPushButton" name="btnSiguiente">
            <property name="text">
             <string>Siguiente</string>
@@ -98,7 +91,7 @@
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_2">
          <item>
-          <widget class="QListWidget" name="listWidget_2"/>
+          <widget class="QListWidget" name="listMovimientos_2"/>
          </item>
          <item>
           <widget class="QPushButton" name="btnAtendidos">
